@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-/* Bildbehållaren */
+/* Bildbehållaren framsidan */
 .hero-banner {
   position: relative;
   height: 70vh;
@@ -44,4 +44,73 @@
   font-weight: bold;
   border-radius: 4px;
   margin-top: 15px;
+}
+
+/* SEKTION: MATCHER */
+.matches-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.matches-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Filterknappar */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #e67e22;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: #e67e22;
+}
+
+/* Matchkort */
+.matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.match-card {
+  background-color: #12284c;
+  padding: 1.2rem;
+  border-radius: 8px;
+  width: 280px;
+  text-align: left;
+}
+
+.match-card h3 {
+  color: #ffffff;
+  margin: 0.4rem 0;
+}
+
+.match-date {
+  color: #e67e22;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.match-location {
+  color: #e0e0e0;
+  font-size: 0.85rem;
 }
