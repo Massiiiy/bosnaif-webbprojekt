@@ -114,3 +114,38 @@
   color: #e0e0e0;
   font-size: 0.85rem;
 }
+
+/* SEKTION: LAG */
+.teams-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.teams-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Lagkorten i rad med Flexbox */
+.teams-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.team-card {
+  background-color: #12284c;     /* Mörkblå bakgrund */
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  width: 220px;                  /* Lagom bredd för korten */
+  text-align: center;            /* Centrerar lagets namn */
+  border-top: 3px solid #e67e22; /* Snygg orange linje högst upp på kortet */
+}
+
+.team-card h3 {
+  color: #ffffff;                /* Vit text */
+  margin: 0;
+  font-size: 1.1rem;
+}
