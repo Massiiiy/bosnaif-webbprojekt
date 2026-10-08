@@ -10,7 +10,7 @@
 <body>
 <!-- 1. HEADER + NAVIGATION -->
     <header class="site-header">
-  <a href="index.html" class="brand-link">
+    <a href="index.html" class="brand-link"></a>
     <img src="img/bosna-if-basket-logo.png" alt="Bosna IF Basket logotyp" class="site-logo">
     <strong>BOSNA IF BASKET</strong>
   </a>
@@ -44,6 +44,46 @@
   </section>
 
 </main>
+
+<!-- MATCHER -->
+<section id="matcher" class="matches-section">
+  <h2>MATCHER</h2>
+
+  <!-- Filterknappar som en semantisk lista -->
+  <ul class="filter-buttons">
+    <li><button class="filter-btn active" data-category="alla">Alla</button></li>
+    <li><button class="filter-btn" data-category="herr">Herr</button></li>
+    <li><button class="filter-btn" data-category="dam">Dam</button></li>
+    <li><button class="filter-btn" data-category="ungdom">Ungdom</button></li>
+  </ul>
+
+  
+  <ul class="matches-list">
+    <li>
+      <article class="match-card" data-category="herr">
+        <p class="match-date">Lör 17 okt · 15:00</p>
+        <h3>Bosna IF - Högsbo</h3>
+        <p class="match-location">Hemma · Hallen</p>
+      </article>
+    </li>
+
+    <li>
+      <article class="match-card" data-category="herr">
+        <p class="match-date">Sön 25 okt · 13:00</p>
+        <h3>Bosna IF - Kvarnby/h3>
+        <p class="match-location">Borta</p>
+      </article>
+    </li>
+
+    <li>
+      <article class="match-card" data-category="ungdom">
+        <p class="match-date">Lör 31 okt · 16:00</p>
+        <h3>Bosna IF - CBA</h3>
+        <p class="match-location">Hemma · Hallen</p>
+      </article>
+    </li>
+  </ul>
+</section>
 
 
 
